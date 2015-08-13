@@ -1,0 +1,86 @@
+h1 {
+    color: cornflowerblue;
+    font-size: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+
+
+.gold {
+    color: gold;
+    font-size: 25px;
+    font-family:consolas;
+}
+
+
+.silver {
+    color: gray;
+    font-size: 20px;
+    font-family:consolas;
+}
+
+
+.bronze {
+    color: saddlebrown;
+    font-size: 15px;
+    font-family: consolas;
+}
+
+
+.form-group {
+    font-size: 20px;
+
+}
+.text{
+font-size: 40px;
+    font-family: Consolas;
+}
+
+#highscores {
+    text-align: left;
+    border: 5px solid #000000;
+    font-family: Consolas ;
+    font-size: 30px;
+    background:  #ffffff;
+}
+
+#greeting {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    background: #ffffff;
+    Width: 700px;
+    height: 350px;
+    border: 8px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    display:none;
+    text-align : center;
+    font-family: consolas;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#header{
+    background-image: url(../assets/cloudh.png);
+    background-repeat: repeat-y;
+    background-position: top center;
+    margin-right: 100px;
+    width:1100px
+    height: 300px
+    font-size: 80px;
+    font-family: consolas;
+
+
+}
+
+#subhead{
+    font-size: 20px;
+    font-family: consolas;
+}
+.class{
+    height:300px;
+    width:1200px;
+}

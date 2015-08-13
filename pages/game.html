@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Radyr, meet Hawkeye vs. The Birds </h1>
+
+        <p>Welcome to the updated "flappy bird game", the best game on the web!</p>
+    </div>
+
+
+    <div class="col-md-8">
+        <div id="game"></div>
+
+    </div>
+
+    <div class="row">
+    <div class="col-md-4">
+        <div id="greeting">
+            <form id="greeting-form" class="form-inline">
+                <div class="form-group">
+
+                    <label for="Nickname"> Enter Player Name</label>
+
+                    <input type="text" id="Nickname"
+                           name="Nickname" class="form-control" placeholder="Nickname">
+
+                    <label for="question">What is your favourite chocolate bar? </label>
+                    <input type="text" id="question"
+                           name="question" class="form-control" placeholder="Favourite chocolate bar">
+
+                    <input type="hidden" id="text" name="score" value="0">
+                </div>
+                <button class="btn btn-default" type="submit">ENTER</button>
+
+            </form>
+        </div>
+        <div id="highscores">
+
+        <p class="text">The highest scorers are:</p>
+        <ul>
+            <li class="gold"> Dr Allen (sh0ck)</li>
+            <li class="silver"> Mr Jones</li>
+            <li class="bronze"> Shorzey</li>
+        </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+    <img src="../assets/screenshotStart.png" class="img-thumbnail img-responsive"/>
+        </div>
+            <div class="col-md-4">
+    <img src="../assets/screenshot.png" class="img-thumbnail img-responsive"/>
+            </div>
+            <div class="col-md-4">
+    <img src="../assets/screenshotOver.png" class="img-thumbnail img-responsive"/>
+</div>
+    </div>
+
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+</div>
+
+
+</body>
+
+
+</html>
